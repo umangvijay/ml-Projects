@@ -1,0 +1,21 @@
+Product Name,Category,Price,Stock,Best Seller,Quantity Sold
+Product_1,Snack,285,70,False,107
+Product_2,Dairy,194,86,False,40
+Product_3,Household,403,26,False,145
+Product_4,Snack,289,91,False,51
+Product_5,Snack,470,60,True,27
+Product_6,Household,182,33,False,72
+Product_7,Snack,230,96,False,21
+Product_8,Beverage,141,94,False,30
+Product_9,Snack,394,86,False,137
+Product_10,Household,308,79,False,73
+Product_11,Beverage,481,25,False,142
+Product_12,Dairy,344,96,True,57
+Product_13,Household,306,60,True,116
+Product_14,Household,80,33,True,58
+Product_15,Household,249,61,True,23
+Product_16,Household,304,38,True,59
+Product_17,Household,344,62,True,9
+Product_18,Snack,232,87,False,148
+Product_19,Snack,353,28,False,124
+Product_20,Snack,386,29,False,9

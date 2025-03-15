@@ -1,0 +1,501 @@
+Product Name,Category,Price,Stock,Best Seller,Quantity Sold
+Muffins,Bakery,769,60,False,316
+Milk,Dairy,457,50,False,304
+Cola,Beverage,530,87,True,20
+Doughnuts,Bakery,731,19,False,260
+Tomatoes,Produce,339,157,False,442
+Curd,Dairy,475,137,False,92backery
+Doughnuts,Bakery,360,69,True,28
+Bagels,Bakery,207,177,False,226
+Popcorn,Snack,609,149,True,147
+Croissant,Bakery,905,18,True,213
+Oranges,Produce,425,144,False,462
+Cucumber,Produce,902,102,True,294
+Milk,Dairy,511,-97,True,312
+Ice Cream,Frozen,964,150,True,460
+Chicken Nuggets,Frozen,571,77,True,169
+Croissant,Bakery,292,11,False,296
+Muffins,Bakery,616,45,False,271
+Carrots,Produce,123,30,False,375
+Cola,Beverage,842,153,True,422
+Cake,Bakery,736,40,False,47
+Air Freshener,Household,587,77,False,261
+Paneer,Dairy,978,107,False,408
+Baguette,Bakery,861,8,False,7
+Potato Chips,Snack,490,170,False,395
+Oranges,Produce,555,135,True,383
+Frozen Berries,Frozen,912,188,True,164
+Muffins,Bakery,867,121,False,161
+Air Freshener,Household,135,190,False,479
+Orange Juice,Beverage,904,9,True,32
+Doughnuts,Bakery,996,138,False,356
+Grapes,Produce,765,181,True,29
+Frozen Pizza,Frozen,882,141,False,456
+Paneer,Dairy,739,193,True,104
+Frozen Pizza,Frozen,368,97,False,456
+Coffee,Beverage,152,94,True,225
+Granola Bar,Snack,210,13,False,202
+Lettuce,Produce,461,174,True,135
+Chicken Nuggets,Frozen,472,94,True,280
+Green Tea,Beverage,708,73,False,423
+Bananas,Produce,323,45,False,487
+Chicken Nuggets,Frozen,468,89,True,84
+Detergent,Household,308,55,True,461
+Sponges,Household,714,45,False,41
+Detergent,Household,456,64,False,217
+Granola Bar,Snack,883,56,True,160
+Tomatoes,Produce,574,83,False,147
+Sports Drink,Beverage,514,34,False,209
+Frozen Vegetables,Frozen,287,98,False,449
+Tomatoes,Produce,427,146,True,364
+Doughnuts,Bakery,355,61,False,67
+Cookies,Snack,318,54,True,38
+Muffins,Bakery,88,114,False,95
+Bagels,Bakery,121,141,False,115
+Air Freshener,Household,124,149,True,279
+Doughnuts,Bakery,148,120,False,71
+Muffins,Bakery,969,9,False,354
+Curd,Dairy,790,44,False,440
+Popcorn,Snack,144,145,True,53
+Ice Cream,Frozen,257,73,False,106
+Cheese,Dairy,516,45,False,166
+Frozen Vegetables,Frozen,298,93,True,158
+Apples,Produce,278,80,False,107
+Muffins,Bakery,463,37,True,281
+Cream,Dairy,701,46,False,408
+Potato Chips,Snack,140,30,True,388
+Sports Drink,Beverage,256,171,True,5
+Bagels,Bakery,452,155,False,467
+Frozen Pizza,Frozen,666,105,True,495
+Paneer,Dairy,882,167,False,107
+Carrots,Produce,337,69,False,239
+Fish Sticks,Frozen,754,30,False,103
+Popcorn,Snack,538,101,False,187
+Bananas,Produce,350,102,True,85
+Cola,Beverage,700,195,False,486
+Cola,Beverage,437,11,False,430
+Toilet Paper,Household,605,112,False,336
+Sponges,Household,294,25,False,410
+Dish Soap,Household,265,68,False,316
+Bread,Bakery,401,99,True,438
+Cola,Beverage,512,172,True,410
+Sponges,Household,784,65,True,431
+Tomatoes,Produce,192,43,True,196
+Lettuce,Produce,801,106,True,461
+Frozen Pizza,Frozen,827,80,False,45
+Bagels,Bakery,932,116,True,281
+Milkshake,Beverage,533,195,True,386
+Dish Soap,Household,985,88,True,221
+Grapes,Produce,421,93,False,399
+Curd,Dairy,641,47,True,470
+Sponges,Household,893,79,False,332
+Carrots,Produce,234,76,False,190
+Lettuce,Produce,785,19,False,426
+Lettuce,Produce,852,97,True,344
+Butter,Dairy,116,76,True,132
+Nuts Mix,Snack,666,133,False,211
+Paneer,Dairy,283,192,False,177
+Cookies,Snack,773,23,False,70
+Bananas,Produce,890,116,False,386
+Yogurt,Dairy,293,179,False,272
+Baguette,Bakery,604,108,True,424
+Milkshake,Beverage,470,10,True,238
+Garbage Bags,Household,246,107,False,345
+Bread,Bakery,824,145,False,213
+Pretzels,Snack,267,72,True,82
+Popcorn,Snack,987,71,False,225
+Bread,Bakery,371,99,True,182
+Coffee,Beverage,790,101,True,444
+Muffins,Bakery,561,105,False,425
+Sports Drink,Beverage,716,5,False,165
+Potato Chips,Snack,406,117,False,164
+Toilet Paper,Household,387,34,False,350
+Ice Cream,Frozen,365,130,True,78
+Toilet Paper,Household,76,10,False,410
+Bagels,Bakery,225,118,True,98
+Orange Juice,Beverage,306,172,False,420
+Milkshake,Beverage,66,116,False,291
+Sports Drink,Beverage,99,10,True,263
+Garbage Bags,Household,161,63,True,267
+Fish Sticks,Frozen,766,83,True,106
+Croissant,Bakery,555,71,False,275
+Frozen Pizza,Frozen,110,162,False,468
+Fish Sticks,Frozen,112,29,False,327
+Green Tea,Beverage,431,87,False,456
+Chocolate Bar,Snack,191,114,False,259
+Detergent,Household,977,120,False,253
+Grapes,Produce,159,128,True,294
+Baguette,Bakery,697,61,True,332
+Detergent,Household,746,61,False,430
+Toilet Paper,Household,617,57,False,113
+Tomatoes,Produce,150,196,False,195
+Ice Cream,Frozen,841,17,False,170
+Doughnuts,Bakery,100,25,True,162
+Nuts Mix,Snack,563,91,True,167
+Chocolate Bar,Snack,630,26,False,56
+Popcorn,Snack,159,76,True,148
+Garbage Bags,Household,92,161,False,345
+Detergent,Household,504,182,False,358
+Milk,Dairy,610,-11,False,372
+Pretzels,Snack,910,195,False,37
+Apples,Produce,639,174,True,63
+Doughnuts,Bakery,875,79,False,469
+Frozen Pizza,Frozen,538,198,True,378
+Orange Juice,Beverage,327,45,True,22
+Yogurt,Dairy,744,193,True,152
+Frozen Pizza,Frozen,808,187,True,36
+Cake,Bakery,295,19,False,210
+Croissant,Bakery,762,27,True,261
+Condensed Milk,Dairy,332,7,True,129
+Air Freshener,Household,635,30,True,219
+Frozen Pizza,Frozen,650,23,False,55
+Potato Chips,Snack,532,17,True,142
+Bananas,Produce,250,57,True,343
+Carrots,Produce,112,100,False,348
+Lemonade,Beverage,73,85,True,394
+Potato Chips,Snack,855,73,False,372
+Potato Chips,Snack,351,88,False,267
+Cookies,Snack,387,91,True,368
+Chocolate Bar,Snack,528,40,False,354
+Air Freshener,Household,539,152,False,341
+Cola,Beverage,350,17,True,67
+Pretzels,Snack,719,165,False,358
+Condensed Milk,Dairy,208,81,True,490
+Curd,Dairy,249,8,True,238
+Coffee,Beverage,272,85,True,398
+Cola,Beverage,684,20,True,218
+Tomatoes,Produce,82,18,False,288
+Bagels,Bakery,946,173,False,385
+Cookies,Snack,63,9,True,86
+Chicken Nuggets,Frozen,757,16,False,105
+Cake,Bakery,104,10,True,494
+Cheese,Dairy,627,152,False,434
+Detergent,Household,94,102,True,122
+Paneer,Dairy,803,16,True,457
+Popcorn,Snack,336,88,False,352
+Detergent,Household,229,165,True,470
+Yogurt,Dairy,919,8,True,198
+Garbage Bags,Household,839,33,False,470
+Cola,Beverage,306,188,True,286
+Garbage Bags,Household,102,61,False,33
+Cream,Dairy,241,74,False,21
+Curd,Dairy,389,19,False,40
+Curd,Dairy,513,48,True,174
+Frozen Berries,Frozen,648,34,True,134
+Oranges,Produce,122,70,False,53
+Frozen Pizza,Frozen,901,117,False,473
+Milkshake,Beverage,326,20,True,296
+Orange Juice,Beverage,883,159,True,248
+Toilet Paper,Household,393,196,True,394
+Cream,Dairy,263,76,False,427
+Ice Cream,Frozen,603,94,False,440
+Muffins,Bakery,786,98,True,36
+Sponges,Household,421,64,False,300
+Potato Chips,Snack,801,113,False,444
+Detergent,Household,479,38,False,483
+Dish Soap,Household,658,127,True,441
+Chicken Nuggets,Frozen,908,48,False,185
+Milkshake,Beverage,966,129,True,386
+Sports Drink,Beverage,793,184,False,93
+Detergent,Household,545,172,True,347
+Cake,Bakery,993,63,True,34
+Green Tea,Beverage,393,141,False,331
+Detergent,Household,781,103,False,136
+Ice Cream,Frozen,240,161,True,361
+Air Freshener,Household,616,122,True,95
+Cheese,Dairy,977,35,True,252
+Carrots,Produce,904,159,True,207
+Doughnuts,Bakery,441,67,False,51
+Frozen Berries,Frozen,227,182,False,313
+Chocolate Bar,Snack,897,102,True,311
+Chocolate Bar,Snack,654,46,True,105
+Condensed Milk,Dairy,727,114,True,156
+Sponges,Household,360,152,True,126
+Milk,Dairy,313,41,False,390
+Potato Chips,Snack,331,100,False,389
+Cheese,Dairy,290,170,True,139
+Frozen Pizza,Frozen,73,176,False,416
+Frozen Pizza,Frozen,734,136,True,307
+Potato Chips,Snack,329,173,True,154
+Frozen Pizza,Frozen,545,193,False,161
+Chicken Nuggets,Frozen,654,22,False,362
+Bread,Bakery,301,60,True,418
+Lettuce,Produce,680,16,True,212
+Pretzels,Snack,957,192,False,336
+Butter,Dairy,823,188,False,342
+Cream,Dairy,989,132,False,22
+Butter,Dairy,698,152,True,198
+Doughnuts,Bakery,384,165,False,226
+Chicken Nuggets,Frozen,842,170,True,377
+Coffee,Beverage,918,96,False,394
+Frozen Pizza,Frozen,679,8,False,315
+Frozen Berries,Frozen,380,123,False,12
+Orange Juice,Beverage,505,21,True,260
+Bananas,Produce,165,141,False,394
+Cake,Bakery,91,22,True,352
+Green Tea,Beverage,907,78,False,380
+Air Freshener,Household,407,169,False,388
+Croissant,Bakery,497,58,True,420
+Garbage Bags,Household,458,40,True,170
+Cookies,Snack,740,32,False,84
+Butter,Dairy,195,72,True,214
+Paneer,Dairy,62,185,True,377
+Chocolate Bar,Snack,475,23,False,95
+Sports Drink,Beverage,563,131,True,429
+Sponges,Household,597,97,True,35
+Croissant,Bakery,437,147,True,357
+Cookies,Snack,582,57,False,336
+Doughnuts,Bakery,639,163,True,117
+Lemonade,Beverage,546,20,False,414
+Curd,Dairy,508,121,False,205
+Cream,Dairy,754,198,True,68
+Toilet Paper,Household,127,178,False,102
+Potato Chips,Snack,502,44,True,305
+Frozen Pizza,Frozen,617,7,False,31
+Bananas,Produce,798,116,True,61
+Cake,Bakery,729,117,True,285
+Yogurt,Dairy,673,187,False,287
+Bread,Bakery,903,70,False,52
+Green Tea,Beverage,717,193,True,217
+Milkshake,Beverage,465,87,False,18
+Frozen Pizza,Frozen,113,86,False,316
+Toilet Paper,Household,563,6,True,36
+Milkshake,Beverage,429,54,True,398
+Green Tea,Beverage,307,196,False,269
+Frozen Vegetables,Frozen,241,72,True,488
+Frozen Vegetables,Frozen,121,19,False,271
+Baguette,Bakery,175,84,True,425
+Cucumber,Produce,53,152,False,218
+Oranges,Produce,113,34,True,280
+Air Freshener,Household,994,174,True,51
+Green Tea,Beverage,470,160,False,275
+Nuts Mix,Snack,175,143,True,488
+Frozen Pizza,Frozen,758,198,True,5
+Paneer,Dairy,587,197,True,82
+Orange Juice,Beverage,428,41,False,457
+Dish Soap,Household,519,140,False,234
+Apples,Produce,491,54,True,440
+Fish Sticks,Frozen,173,15,False,28
+Granola Bar,Snack,132,89,False,284
+Sponges,Household,265,180,True,119
+Lemonade,Beverage,893,49,True,497
+Frozen Berries,Frozen,338,127,True,472
+Potato Chips,Snack,636,67,True,297
+Toilet Paper,Household,720,116,True,422
+Garbage Bags,Household,294,31,True,148
+Pretzels,Snack,418,38,False,165
+Cream,Dairy,466,34,True,430
+Bread,Bakery,221,178,True,8
+Frozen Pizza,Frozen,638,144,True,270
+Cheese,Dairy,737,140,True,18
+Baguette,Bakery,606,113,False,452
+Frozen Berries,Frozen,902,130,True,277
+Cookies,Snack,253,55,True,389
+Air Freshener,Household,722,44,True,121
+Chocolate Bar,Snack,974,140,False,278
+Baguette,Bakery,329,20,True,288
+Carrots,Produce,152,196,False,448
+Lemonade,Beverage,959,32,True,190
+Tomatoes,Produce,874,47,False,351
+Baguette,Bakery,972,124,False,223
+Bread,Bakery,251,47,True,104
+Tomatoes,Produce,677,194,False,146
+Tomatoes,Produce,711,89,True,26
+Muffins,Bakery,466,135,True,207
+Frozen Pizza,Frozen,660,167,False,214
+Oranges,Produce,362,145,True,70
+Toilet Paper,Household,438,28,False,277
+Yogurt,Dairy,761,127,True,26
+Frozen Berries,Frozen,550,147,True,170
+Carrots,Produce,681,167,True,384
+Sports Drink,Beverage,228,156,True,320
+Detergent,Household,784,87,True,209
+Fish Sticks,Frozen,556,50,False,32
+Bagels,Bakery,391,115,True,223
+Butter,Dairy,94,94,True,318
+Chocolate Bar,Snack,419,142,False,200
+Grapes,Produce,481,114,False,360
+Chicken Nuggets,Frozen,296,100,True,191
+Tomatoes,Produce,886,187,True,243
+Bread,Bakery,995,95,True,457
+Bagels,Bakery,114,74,True,30
+Doughnuts,Bakery,782,44,True,57
+Oranges,Produce,973,124,True,171
+Cookies,Snack,438,28,False,234
+Sponges,Household,708,89,True,219
+Green Tea,Beverage,128,99,False,423
+Dish Soap,Household,250,124,False,340
+Green Tea,Beverage,578,134,True,255
+Toilet Paper,Household,114,78,False,468
+Bread,Bakery,784,157,False,42
+Bagels,Bakery,515,65,True,300
+Potato Chips,Snack,651,34,False,496
+Frozen Vegetables,Frozen,115,24,True,397
+Pretzels,Snack,314,134,False,112
+Bread,Bakery,812,122,False,352
+Detergent,Household,816,128,False,82
+Popcorn,Snack,983,187,False,229
+Potato Chips,Snack,772,34,True,6
+Pretzels,Snack,991,37,False,355
+Ice Cream,Frozen,669,43,True,223
+Grapes,Produce,801,99,False,372
+Muffins,Bakery,774,116,True,339
+Paneer,Dairy,321,146,False,222
+Baguette,Bakery,665,197,True,228
+Butter,Dairy,425,178,False,109
+Cola,Beverage,215,190,True,233
+Sponges,Household,284,144,False,482
+Milkshake,Beverage,428,156,False,202
+Garbage Bags,Household,76,88,False,335
+Pretzels,Snack,866,19,False,37
+Bananas,Produce,738,141,False,89
+Garbage Bags,Household,329,32,True,498
+Oranges,Produce,725,71,True,178
+Curd,Dairy,427,57,True,388
+Garbage Bags,Household,367,123,True,406
+Butter,Dairy,624,124,True,272
+Doughnuts,Bakery,627,57,False,430
+Grapes,Produce,885,144,False,473
+Lettuce,Produce,226,104,True,107
+Lettuce,Produce,871,76,False,474
+Chocolate Bar,Snack,995,187,True,99
+Orange Juice,Beverage,869,138,True,382
+Grapes,Produce,602,157,False,227
+Chocolate Bar,Snack,863,180,False,485
+Baguette,Bakery,203,60,False,269
+Baguette,Bakery,240,193,False,190
+Dish Soap,Household,604,88,False,107
+Nuts Mix,Snack,932,63,True,473
+Lemonade,Beverage,748,82,True,499
+Sponges,Household,463,24,True,169
+Doughnuts,Bakery,971,88,True,486
+Oranges,Produce,722,109,False,280
+Yogurt,Dairy,634,193,True,187
+Chicken Nuggets,Frozen,123,186,False,499
+Apples,Produce,155,30,False,390
+Curd,Dairy,823,119,False,201
+Sponges,Household,694,100,False,302
+Curd,Dairy,824,118,False,418
+Ice Cream,Frozen,793,183,True,307
+Cola,Beverage,337,125,True,17
+Carrots,Produce,624,185,False,227
+Toilet Paper,Household,184,185,True,475
+Chicken Nuggets,Frozen,499,195,True,276
+Cake,Bakery,472,138,False,418
+Cola,Beverage,71,140,True,497
+Frozen Berries,Frozen,120,112,False,359
+Lettuce,Produce,50,199,False,368
+Curd,Dairy,422,72,True,113
+Chicken Nuggets,Frozen,905,165,False,395
+Cola,Beverage,864,85,False,311
+Coffee,Beverage,804,66,False,483
+Popcorn,Snack,89,108,True,415
+Cookies,Snack,76,76,True,287
+Muffins,Bakery,346,44,False,303
+Bagels,Bakery,828,18,False,133
+Chicken Nuggets,Frozen,77,124,True,146
+Cream,Dairy,367,167,True,418
+Cucumber,Produce,627,71,True,215
+Condensed Milk,Dairy,654,146,False,122
+Condensed Milk,Dairy,69,49,True,275
+Cheese,Dairy,690,56,False,98
+Bagels,Bakery,648,102,False,149
+Doughnuts,Bakery,101,13,True,3
+Frozen Vegetables,Frozen,622,49,True,302
+Fish Sticks,Frozen,777,23,False,421
+Cheese,Dairy,776,140,True,296
+Ice Cream,Frozen,852,50,True,141
+Carrots,Produce,519,111,False,52
+Orange Juice,Beverage,148,61,False,301
+Oranges,Produce,59,74,True,485
+Coffee,Beverage,551,171,False,275
+Cucumber,Produce,641,32,False,60
+Croissant,Bakery,454,108,True,260
+Cookies,Snack,156,130,False,407
+Cream,Dairy,704,113,False,244
+Ice Cream,Frozen,374,88,False,267
+Toilet Paper,Household,269,193,False,275
+Bagels,Bakery,979,138,False,199
+Lettuce,Produce,685,176,True,424
+Ice Cream,Frozen,113,56,False,304
+Nuts Mix,Snack,216,176,False,129
+Cream,Dairy,873,48,True,364
+Butter,Dairy,589,148,True,185
+Paneer,Dairy,204,143,False,443
+Cookies,Snack,959,128,False,452
+Frozen Pizza,Frozen,103,57,True,495
+Toilet Paper,Household,963,16,True,314
+Frozen Vegetables,Frozen,700,72,False,396
+Carrots,Produce,463,99,True,457
+Coffee,Beverage,730,104,False,6
+Dish Soap,Household,769,117,True,485
+Toilet Paper,Household,693,145,False,382
+Frozen Pizza,Frozen,99,180,True,183
+Cucumber,Produce,425,184,True,326
+Frozen Berries,Frozen,147,173,False,235
+Air Freshener,Household,83,67,False,409
+Pretzels,Snack,254,120,True,20
+Carrots,Produce,553,114,True,386
+Orange Juice,Beverage,181,190,True,430
+Fish Sticks,Frozen,569,21,False,244
+Cookies,Snack,433,49,False,353
+Fish Sticks,Frozen,686,9,True,138
+Cola,Beverage,554,183,True,56
+Lemonade,Beverage,565,71,False,74
+Sports Drink,Beverage,830,28,True,319
+Doughnuts,Bakery,754,18,False,64
+Cream,Dairy,425,176,False,56
+Cucumber,Produce,357,14,False,256
+Toilet Paper,Household,845,90,True,323
+Potato Chips,Snack,117,45,True,476
+Muffins,Bakery,905,169,True,151
+Sports Drink,Beverage,951,72,True,443
+Cream,Dairy,732,193,False,44
+Cola,Beverage,230,37,True,108
+Baguette,Bakery,447,159,True,352
+Butter,Dairy,852,39,True,382
+Bagels,Bakery,908,55,False,314
+Frozen Pizza,Frozen,668,55,True,19
+Chocolate Bar,Snack,648,77,False,61
+Frozen Vegetables,Frozen,888,108,False,476
+Bananas,Produce,345,185,False,468
+Milk,Dairy,968,69,True,232
+Cheese,Dairy,563,104,False,183
+Frozen Vegetables,Frozen,634,175,True,257
+Detergent,Household,630,155,False,483
+Milk,Dairy,57,-46,False,474
+Bagels,Bakery,247,161,True,283
+Apples,Produce,536,190,True,177
+Milk,Dairy,61,-51,False,177
+Milkshake,Beverage,841,31,True,238
+Fish Sticks,Frozen,835,83,True,63
+Yogurt,Dairy,536,23,True,30
+Frozen Vegetables,Frozen,405,126,True,497
+Croissant,Bakery,875,129,True,453
+Green Tea,Beverage,173,95,True,139
+Milkshake,Beverage,473,137,True,498
+Coffee,Beverage,116,96,False,303
+Chocolate Bar,Snack,513,160,True,161
+Green Tea,Beverage,484,149,True,77
+Pretzels,Snack,511,132,True,25
+Oranges,Produce,830,116,False,197
+Potato Chips,Snack,204,33,True,69
+Cream,Dairy,766,92,True,37
+Apples,Produce,950,36,True,363
+Garbage Bags,Household,123,82,True,430
+Milkshake,Beverage,342,55,False,39
+Cola,Beverage,696,65,True,288
+Detergent,Household,140,13,True,34
+Cake,Bakery,511,99,True,250
+Toilet Paper,Household,355,58,True,123
+Cucumber,Produce,192,150,False,363
+Paneer,Dairy,842,26,False,499
+Pretzels,Snack,581,13,True,148
+Lettuce,Produce,486,109,True,332
+Orange Juice,Beverage,822,59,False,426
+Cream,Dairy,878,175,False,466
+Fish Sticks,Frozen,64,57,True,132
+Tomatoes,Produce,197,195,True,435
+Lettuce,Produce,528,112,False,295
+Apples,Produce,781,102,True,152
+Green Tea,Beverage,894,20,False,467
