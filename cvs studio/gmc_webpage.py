@@ -5,6 +5,13 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from statsmodels.tsa.arima.model import ARIMA
 
+
+
+
+
+
+
+
 # ---------------------- Step 1: Load Grocery Data ----------------------
 csv_filename = "grocery_data_updated.csv"
 df_grocery = pd.read_csv(csv_filename)
@@ -51,11 +58,8 @@ class SalesPredictionModel:
         self.model = LinearRegression()
 
     def train(self):
-        self.df['Quantity Sold'] = pd.to_numeric(self.df['Quantity Sold'], errors='coerce')
-        self.df.dropna(subset=['Quantity Sold'], inplace=True)
-        X = self.df[['Price']].loc[self.df['Quantity Sold'].notna()]
-        y = self.df['Quantity Sold'].loc[self.df['Quantity Sold'].notna()]
-
+        X = self.df[['Price']]
+        y = self.df['Quantity Sold']
         self.model.fit(X, y)
 
     def predict(self, price):
