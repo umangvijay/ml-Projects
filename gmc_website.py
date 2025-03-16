@@ -867,7 +867,7 @@ html_template = '''
         });
     </script>
 </body>
-</html>
+</html>a
 '''
 
 # ---------------------- Flask Routes ----------------------
