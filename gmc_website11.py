@@ -12,12 +12,55 @@ import json
 app = Flask(__name__)
 
 # ---------------------- Step 1: Load Grocery Data ----------------------
-csv_filename = "grocery_data_updated.csv"
-df_grocery = pd.read_csv(csv_filename)
+csv_filename = "grocery_data.csv"
+try:
+    # Read CSV with explicit encoding and handle any BOM
+    df_grocery = pd.read_csv(csv_filename, encoding='utf-8-sig')
+    
+    # Clean column names
+    df_grocery.columns = df_grocery.columns.str.strip()
+    
+    # Rename columns to match our application's expectations
+    column_mapping = {
+        'ProductName': 'Product Name',
+        'StockQuantity': 'Stock',
+        'BestSeller': 'Best Seller',
+        'QuantitySold': 'Quantity Sold'
+    }
+    df_grocery = df_grocery.rename(columns=column_mapping)
+    
+    # Verify required columns exist
+    required_columns = ['Product Name', 'Price', 'Stock', 'Category', 'Best Seller', 'Quantity Sold']
+    missing_columns = [col for col in required_columns if col not in df_grocery.columns]
+    
+    if missing_columns:
+        print(f"Error: Missing required columns: {missing_columns}")
+        print("Available columns:", df_grocery.columns.tolist())
+        raise KeyError(f"Missing required columns: {missing_columns}")
+        
+    # Convert numeric columns
+    df_grocery['Price'] = pd.to_numeric(df_grocery['Price'], errors='coerce')
+    df_grocery['Stock'] = pd.to_numeric(df_grocery['Stock'], errors='coerce')
+    df_grocery['Quantity Sold'] = pd.to_numeric(df_grocery['Quantity Sold'], errors='coerce')
+    
+except Exception as e:
+    print(f"Error loading CSV file: {str(e)}")
+    raise
 
 # ---------------------- Step 2: Search Product ----------------------
 def search_product(product_name):
-    product = df_grocery[df_grocery["Product Name"] == product_name]
+    # Convert product name to lowercase for case-insensitive search
+    product_name = product_name.lower()
+    
+    # Convert all product names in dataframe to lowercase for comparison
+    df_grocery['Product Name Lower'] = df_grocery['Product Name'].str.lower()
+    
+    # Search for the product
+    product = df_grocery[df_grocery['Product Name Lower'] == product_name]
+    
+    # Drop the temporary lowercase column
+    df_grocery.drop('Product Name Lower', axis=1, inplace=True)
+    
     if product.empty:
         return "❌ Product not available."
     return product
@@ -25,16 +68,26 @@ def search_product(product_name):
 # ---------------------- Step 3: Buy Product ----------------------
 def buy_product(product_name, quantity):
     global df_grocery
-    product = df_grocery[df_grocery["Product Name"] == product_name]
+    # Convert product name to lowercase for case-insensitive search
+    product_name = product_name.lower()
+    
+    # Convert all product names in dataframe to lowercase for comparison
+    df_grocery['Product Name Lower'] = df_grocery['Product Name'].str.lower()
+    
+    # Search for the product
+    product = df_grocery[df_grocery['Product Name Lower'] == product_name]
+    
+    # Drop the temporary lowercase column
+    df_grocery.drop('Product Name Lower', axis=1, inplace=True)
 
     if product.empty:
         return "❌ Product not available."
 
     stock = product["Stock"].values[0]
     if stock >= quantity:
-        df_grocery.loc[df_grocery["Product Name"] == product_name, "Stock"] -= quantity
+        df_grocery.loc[df_grocery['Product Name'].str.lower() == product_name, "Stock"] -= quantity
         df_grocery.to_csv(csv_filename, index=False)
-        return f"✅ Purchased {quantity} of {product_name}. Remaining stock: {stock - quantity}."
+        return f"✅ Purchased {quantity} of {product['Product Name'].values[0]}. Remaining stock: {stock - quantity}."
     else:
         return "⚠️ Not enough stock available."
 
@@ -95,17 +148,28 @@ sales_model.train()
 
 # ---------------------- Step 6: Predict Sales ----------------------
 def predict_sales_by_product_name(product_name):
-    product = df_grocery[df_grocery["Product Name"] == product_name]
+    # Convert product name to lowercase for case-insensitive search
+    product_name = product_name.lower()
+    
+    # Convert all product names in dataframe to lowercase for comparison
+    df_grocery['Product Name Lower'] = df_grocery['Product Name'].str.lower()
+    
+    # Search for the product
+    product = df_grocery[df_grocery['Product Name Lower'] == product_name]
+    
+    # Drop the temporary lowercase column
+    df_grocery.drop('Product Name Lower', axis=1, inplace=True)
+    
     if product.empty:
         return {"success": False, "message": "❌ Product not available for sales prediction."}
 
     price = product["Price"].values[0]
     predicted_sales = sales_model.predict(price)
-    img_str = sales_model.plot_sales(x_vals=price, x_label="Price", title=f"Sales Prediction for {product_name}")
+    img_str = sales_model.plot_sales(x_vals=price, x_label="Price", title=f"Sales Prediction for {product['Product Name'].values[0]}")
     
     return {
         "success": True,
-        "message": f"📊 Predicted sales for {product_name} (₹{price}): {predicted_sales:.2f} units",
+        "message": f"📊 Predicted sales for {product['Product Name'].values[0]} (₹{price}): {predicted_sales:.2f} units",
         "image": img_str
     }
 
@@ -867,7 +931,7 @@ html_template = '''
         });
     </script>
 </body>
-</html>a
+</html>
 '''
 
 # ---------------------- Flask Routes ----------------------

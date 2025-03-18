@@ -1,0 +1,29 @@
+ProductID,ProductName,Category,Price,BestSeller,StockQuantity,QuantitySold
+1,"Organic Apples","Fruits",2.50,TRUE,150,120
+2,"Whole Wheat Bread","Bakery",3.00,TRUE,100,90
+3,"Milk (1 Gallon)","Dairy",4.50,FALSE,200,80
+4,"Chicken Breast","Meat",7.00,TRUE,120,110
+5,"Spinach","Vegetables",2.00,TRUE,180,160
+Apples,Fruits,2.5,100,75,True
+Bananas,Fruits,1.99,150,120,True
+Oranges,Fruits,3.25,80,60,False
+Milk,Dairy,3.99,0,45,True
+Cheese,Dairy,5.5,30,25,False
+Yogurt,Dairy,2.75,40,35,True
+Chicken,Meat,7.99,20,15,True
+Beef,Meat,9.99,15,10,False
+Pork,Meat,8.5,25,20,False
+Rice,Grains,4.5,60,40,True
+Pasta,Grains,3.25,45,30,False
+Bread,Bakery,2.99,35,30,True
+Cookies,Bakery,4.25,25,20,False
+Cake,Bakery,12.99,10,8,True
+Potato Chips,Snacks,3.5,70,65,True
+Chocolate,Snacks,2.99,50,45,True
+Ice Cream,Frozen,6.99,30,25,True
+Frozen Pizza,Frozen,8.5,25,20,False
+Frozen Vegetables,Frozen,4.25,40,30,False
+Soda,Beverages,1.99,100,90,True
+Water,Beverages,1.5,150,130,True
+Coffee,Beverages,8.99,40,35,False
+Tea,Beverages,5.99,35,30,False 
